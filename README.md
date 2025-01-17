@@ -1,1 +1,1 @@
-3d omdels, light
+3d models, light
