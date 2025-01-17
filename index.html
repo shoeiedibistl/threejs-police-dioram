@@ -1,0 +1,37 @@
+
+<!--передаем уникальный io-->
+<!--Для добавления мобильной версии картинки добавляем вторым параметром true-->
+<!--Например +picture('image.jpg', 'true')-->
+<!--Миксин будет искать картинку с названием image-mob.jpg (тоесть вторая картинка должна иметь такое же название как и основная, только с добавлением -mob.png/jpg и тд)--><!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>three-ref-2</title>
+    <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link href="https://vitejs.dev/logo.svg" rel="icon" type="image/x-icon">
+    <script type="module" crossorigin src="assets/index.js"></script>
+    <link rel="stylesheet" href="styles/index.css">
+  </head>
+  <body data-barba="wrapper">
+    <div class="wrapper">
+      <div class="modal-block">
+      </div>
+      <div class="content" data-barba="container" data-barba-namespace="three-ref-2">
+        <main>
+          <div class="three-ref-2-content">
+            <div class="inner canvas-page">
+              <div class="canvas-page__canvas"> </div>
+              <div class="canvas-page__content"> 
+                <h1>click on dude</h1>
+                <button class="canvas-page__button flashlight-button" data-flashlight-button="">фонарик выкл.</button>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+    
+  </body>
+</html>
